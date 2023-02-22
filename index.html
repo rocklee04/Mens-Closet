@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/index.css" />
+    <title>Home</title>
+</head>
+<body>
+    <div id="nav">
+        <span class="fa-thin fa-location-dot"></span>
+        <i class="fa-thin fa-user"></i>
+        <img src="./image/logo.png" alt="error">
+        <div class="group">
+            
+            <input placeholder="Search" type="search" class="input">
+            <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><g><path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"></path></g></svg>
+        </div>
+        
+    </div>
+    <div id="navbox">
+        <div id="nav2">
+            <p>SHIRTS</p>|
+            <p>SUITS</p>|
+            <p>PANTS</p>|
+            <p>SWEATERS</p>|
+            <p>JACKETS & COATS</p>|
+            <p>SHOES</p>|
+            <p>ACCESSORIES</p>
+        </div>
+    </div>
+    <div id="top-section">
+        <img style="width: 100%;" src="https://www.charlestyrwhitt.com/on/demandware.static/-/Library-Sites-CTShirtsSharedLibrary/default/dw83c3918b/merchAssets/SS23/TIBs/tib-ss23-015.jpg" alt="error" >
+        <div class="new_season">NEW SEASON</div>
+        <div class="center">
+           <p id="one">Timeless Classics</p> 
+           <p id="two">For Working in Every Time Zone</p>
+           <p id="three">4 SHIRTS OR POLO FOR $239<br>
+        SAVE UP TO $235</p>
+        <div id="top-button">
+            <button>SHOP NEW SEASON</button>
+            <button>SHOP SHIRTS</button>
+        </div>
+        </div>
+    </div>
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                    <img src="https://mma.prnewswire.com/media/877347/Charles_Tyrwhitt_Tencel_Linen_Casual_Shirt.jpg?p=facebook" alt="error">
+                    <div class="bottom-left">
+                        <p>LINIEN SHIRTS</p>
+                        <h3>New Collection</h3>
+                    </div>
+            </div>
+          
+            <div class="swiper-slide">
+                    <img src="https://www.charlestyrwhitt.com/on/demandware.static/-/Library-Sites-CTShirtsSharedLibrary/default/dwa689c75d/merchAssets/SS22/TIBs/tib-040.jpg" alt="">
+                    <div class="bottom-left">
+                        <p>SUITS</p>
+                        <h3>Ultimate Performance</h3>
+                    </div>
+            </div>
+                
+                
+            
+            <div class="swiper-slide">
+                <img src="https://www.charlestyrwhitt.com/on/demandware.static/-/Library-Sites-CTShirtsSharedLibrary/default/dwe1559588/merchAssets/SS23/TIBs/tib-ss23-casual-twill.jpg" alt="error">
+                <div class="bottom-left">
+                    <p>CASUAL SHIRTS</p>
+                    <h3>4 for $239, Save $235</h3>
+                </div>
+                
+            </div>
+            <div class="swiper-slide">
+                <img src="https://i.pinimg.com/236x/60/04/df/6004df6f8d8eb1146d8207c18e62eefb--crew-neck-cashmere.jpg" alt="error">
+                <div class="bottom-left">
+                    <p>SWEATERS</p>
+                    <h3>New Colors</h3>
+                </div>
+            </div>
+            <!-- <div class="swiper-slide">
+                <img src="" alt="error">
+                <div class="bottom-left">
+                    <p>SWEATERS</p>
+                    <h3>New Colors</h3>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <img src="" alt="error">
+                <div class="bottom-left">
+                    <p>SWEATERS</p>
+                    <h3>New Colors</h3>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <img src="" alt="error">
+                <div class="bottom-left">
+                    <p>SWEATERS</p>
+                    <h3>New Colors</h3>
+                </div>
+            </div> -->
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+<script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      keyboard: {
+        enabled: true,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+    
+
+</body>
+
+
+
+</html>
