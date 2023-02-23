@@ -1,0 +1,70 @@
+.login-card {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    margin-top: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  
+  .card-header {
+    margin-bottom: 20px
+  }
+  
+  .card-header .log {
+    margin: 0;
+    font-size: 24px;
+    color: #001f49;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    font-size: 10px;
+    color: rgb(75, 71, 71);
+  }
+  
+  label {
+    font-size: 14px;
+  } 
+  .mid-form {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+  .mid-form > div {
+    padding-right: 30px;
+  }
+  #user {
+    margin-top: 20px;
+    width: 300px;
+    height: 40px;
+  }
+  #password {
+    margin-top: 20px;
+    width: 300px;
+    height: 40px;
+    margin-bottom: 20px;
+  }
+  .form-group #loginbtn {
+    width: 300px;
+    background-color: #001f49;
+    color: white;
+    height: 40px;
+  }
+  .newbtn {
+    width: 300px;
+    background-color: #001f49;
+    color: white;
+    height: 40px;
+  }
+  .log2 {
+    color: #001f49;
+    font-weight: bold;
+  }
+  .new p {
+    line-height: 40px;
+    font-size: 14px;
+    color: #505153;
+  }
+  .new i {
+    padding-right: 10px;
+  }
