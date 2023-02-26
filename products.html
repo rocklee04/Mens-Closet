@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/index.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="./styles/login.css" />
-    <title>Home</title>
+
+    <link rel="icon" type="image/png" href="./image/logo1.png"/>
+    <link rel="stylesheet" href="./styles/products.css"/>
+    <title>MEN'S CLOSET</title>
 </head>
 <body>
     <div id="nav">
@@ -27,52 +28,56 @@
         
     </div>
     <div id="navbox">
-        <div id="nav2">
-            <p>SHIRTS</p>|
-            <p>SUITS</p>|
-            <p>PANTS</p>|
-            <p>SWEATERS</p>|
-            <p>JACKETS & COATS</p>|
-            <p>SHOES</p>|
-            <p>ACCESSORIES</p>
-        </div>
-    </div>
+      <div id="nav2">
+          <p>SHIRTS</p>|
+          <p>SUITS</p>|
+          <p>PANTS</p>|
+          <p>SWEATERS</p>|
+          <p>JACKETS & COATS</p>|
+          <p>SHOES</p>|
+          <p>ACCESSORIES</p>
+      </div>
+  </div>
+    <div id="products-navbox">
+        <a href="">Home</a><p>></p>
+        <a href="">NEW</a>
 
-    <div class="login-card">
-        <div class="card-header">
-          <div class="log">My Account</div>
-        </div>
-        <div class="mid-form">
-            <div>
-                <form>
-                    <div class="form-group">
-                      <label for="username">Email address</label><br>
-                      <input required="" id="user" type="text">
-                    </div>
-                    <div class="form-group">
-                      <label for="password">Password</label><br>
-                      <input required="" name="password" id="password" type="password"><br>
-                      <a href="">Forgot your password?</a>
-                    </div>
-                    
-                    <div class="form-group">
-                        <input id="loginbtn" type="submit" value="LOG IN" />
-                    </div>
-                </form>
-            </div>
-            
-            <div class="new">
-               <div class="log2">NEW CUSTOMERS</div>
-               <p>Set up an account with us and you will be able to:<br>
-                <i class="fa-regular fa-pen-to-square fa-xl"></i>Check order status<br>
-                <i class="fa-regular fa-envelope fa-xl"></i>Save multiple addresses to your address book<br>
-                <i class="fa-solid fa-check fa-xl"></i>Set your size and monogramming preferences</p> 
-                <a href="./signup.html"><button class="newbtn">CREATE AN ACCOUNT NOW</button></a>
-            </div>
-        </div>
-        
     </div>
-      
+    <div id="heading">
+        <div id="about">
+            <h1>NEW COLLECTION</h1>
+          <p>Hit refresh on your wardrobe staples with our new clothes for men. Discover the latest arrivals, whether that's a<br> sharp suit from our collection of expertly tailored office styles, or made-to-last cotton shirts with distinctive weaves.<br> Our pants are essential building blocks for weekday and off-duty dressing – explore our smart and casual styles. </p>  
+        </div>
+        <div id="heading-images">
+            <div><img src="https://www.charlestyrwhitt.com/on/demandware.static/-/Library-Sites-CTShirtsSharedLibrary/default/dwc9120583/merchAssets/SS23/TIBs/tib-ss23-new-collection-shirts.jpg" alt="error"></div>
+            <div><img src="https://www.charlestyrwhitt.com/on/demandware.static/-/Library-Sites-CTShirtsSharedLibrary/default/dwe7d0cd19/merchAssets/SS23/TIBs/tib-ss23-new-collection-trousers.jpg" alt="error"></div>
+            <div><img src="https://www.charlestyrwhitt.com/on/demandware.static/-/Library-Sites-CTShirtsSharedLibrary/default/dw492f1594/merchAssets/SS23/TIBs/tib-ss23-new-collection-knitwear.jpg" alt="error"></div>
+            
+        </div>
+    </div>
+    <select id="sortby">
+      <option value="ab">SORT BY </option>
+      <option value="htl">PRICE(HIGH TO LOW)</option>
+      <option value="lth">PRICE(LOW TO HIGH)</option>
+    </select>
+    
+    <div id="products-display">
+        <div class="filter">
+            <p><strong>BRAND NAME</strong></p>
+            <form>
+              <label><input type="checkbox" name="fl-brand" value="PARK AVENUE" id="pv" /> PARK AVENUE</label><br>
+              <label><input type="checkbox" name="fl-brand" value="PETER ENGLAND" id="pe" /> PETER ENGLAND</label><br> 
+              <label><input type="checkbox" name="fl-brand" value="Raymond" id="Ray" />RAYMOND</label><br>                     
+              <label><input type="checkbox" name="fl-brand" value="VAN HEUSEN" id="VAN"/>VAN HEUSEN</label><br>
+              <label><input type="checkbox" name="fl-brand" value="ARROW" id="ARROW"/>ARROW</label><br>  
+            </form>
+        </div>    
+        <div id="product-container">
+
+    </div>
+    </div>
+    
+
     <div class="bar">
         <!--Grid column-->
         <div class="col">
@@ -202,10 +207,11 @@
 <!-- Footer -->
 
 
-<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
 <script src="https://kit.fontawesome.com/938cd4489b.js" crossorigin="anonymous"></script>
-<script src="./src/scripts/index.js"></script>
-<script src="./src/scripts/login.js"></script>
+
+<script src="./src/scripts/products.js"></script>
+
 
 
 </body>
