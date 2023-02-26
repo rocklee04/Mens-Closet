@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/index.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="./styles/login.css" />
-    <title>Home</title>
+    <link rel="icon" type="image/png" href="./image/logo1.png"/>
+    <link rel="stylesheet" href="./styles/bag.css"/>
+    <title>MEN'S CLOSET</title>
 </head>
 <body>
     <div id="nav">
@@ -22,7 +22,7 @@
                 <input placeholder="Search" type="search" class="input">
                 <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><g><path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"></path></g></svg>
             </div>
-            <a href="./bag.html" class="bag"><i class="fa-solid fa-bag-shopping fa-xl"></i></a>
+            <i class="fa-solid fa-bag-shopping fa-xl"></i>
         </div>
         
     </div>
@@ -37,41 +37,50 @@
             <p>ACCESSORIES</p>
         </div>
     </div>
+    <div id="heading1">
+        <h1>BAG</h1>
+        <hr>
+        
+    </div>
+    <div id="outer">
+        <div>
+                <div id="total_item">YOUR ITEMS(<span id="order-quantity"></span>)</div>
+                <div id="cart-container">
 
-    <div class="login-card">
-        <div class="card-header">
-          <div class="log">My Account</div>
+                </div>
         </div>
-        <div class="mid-form">
-            <div>
-                <form>
-                    <div class="form-group">
-                      <label for="username">Email address</label><br>
-                      <input required="" id="user" type="text">
-                    </div>
-                    <div class="form-group">
-                      <label for="password">Password</label><br>
-                      <input required="" name="password" id="password" type="password"><br>
-                      <a href="">Forgot your password?</a>
-                    </div>
-                    
-                    <div class="form-group">
-                        <input id="loginbtn" type="submit" value="LOG IN" />
-                    </div>
-                </form>
+        <div id="billing">
+            <div id="order-summary">
+                <div id="total_item">ORDER SUMMARY</div>
+                <div id="offer"><p>OFFER CODE</p>
+                <hr>
+                <h4>+have an offer code</h4></div>
             </div>
-            
-            <div class="new">
-               <div class="log2">NEW CUSTOMERS</div>
-               <p>Set up an account with us and you will be able to:<br>
-                <i class="fa-regular fa-pen-to-square fa-xl"></i>Check order status<br>
-                <i class="fa-regular fa-envelope fa-xl"></i>Save multiple addresses to your address book<br>
-                <i class="fa-solid fa-check fa-xl"></i>Set your size and monogramming preferences</p> 
-                <a href="./signup.html"><button class="newbtn">CREATE AN ACCOUNT NOW</button></a>
+            <div id="bill">
+                <div id="total_item">TOTAL</div>
+                <div id="cart-total1">BAG TOTAL &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="cart-total">0</span><br><br>
+                     <p>Premium Tracked &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $17.95<br>Shipping</p>
+                     <br><br>
+                     <p id="pay">TO PAY &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span id="grand-total"></span></p>
+                </div>
+                <div id="bill-bottom">
+                    <a href="./checkout.html"><button id="check">SECURE Checkout</button></a>
+                    <button id="done">Pay with <span id="pal">PayPal</span></button>
+                    <p>We Accept</p>
+                    <div id="atms">
+                        <img src="https://www.charlestyrwhitt.com/on/demandware.static/-/Library-Sites-CTShirtsSharedLibrary/default/dw733cef56/images/payment_methods/basket_mastercard.svg" alt="error">
+                        <img src="https://www.charlestyrwhitt.com/on/demandware.static/-/Library-Sites-CTShirtsSharedLibrary/default/dwc61fa691/images/payment_methods/basket_visa.svg" alt="error">
+                        <img src="https://www.charlestyrwhitt.com/on/demandware.static/-/Library-Sites-CTShirtsSharedLibrary/default/dwb708a05a/images/payment_methods/basket_amex.svg" alt="error">
+                        <img src="https://www.charlestyrwhitt.com/on/demandware.static/-/Library-Sites-CTShirtsSharedLibrary/default/dw043e7c50/images/payment_methods/basket_paypal.svg" alt="error">
+                        <img src="https://www.charlestyrwhitt.com/on/demandware.static/-/Library-Sites-CTShirtsSharedLibrary/default/dw1c8f39d6/images/payment_methods/apple_pay.png" alt="error">
+                    </div>
+                </div>    
             </div>
         </div>
         
     </div>
+    
+
       
     <div class="bar">
         <!--Grid column-->
@@ -202,10 +211,9 @@
 <!-- Footer -->
 
 
-<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
 <script src="https://kit.fontawesome.com/938cd4489b.js" crossorigin="anonymous"></script>
-<script src="./src/scripts/index.js"></script>
-<script src="./src/scripts/login.js"></script>
+<script src="./src/scripts/bag.js"></script>
 
 
 </body>

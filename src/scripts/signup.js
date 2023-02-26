@@ -26,6 +26,10 @@ let data = JSON.parse(localStorage.getItem("account-data"));
           if(Object.keys(obj).length == 3){
 
             alert("Sign up Successful");
+            setTimeout(() => {
+              location.replace("./index.html");
+              }, 1000);
+  
             
           }
           else {
@@ -33,5 +37,5 @@ let data = JSON.parse(localStorage.getItem("account-data"));
             alert("Wrong Credentials");
     
           }
-
+          
     })

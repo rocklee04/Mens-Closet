@@ -133,6 +133,10 @@ i {
     font-size: 12px;
     margin-right: 40px;
    }
+   #top-button button a {
+    text-decoration: none;
+    color: black;
+   }
    .swiper {
     width: 100%;
     height: 100%;
@@ -356,4 +360,23 @@ i {
    }
    
    
+  @media all and (min-width: 451px) and (max-width: 750px) {
+
+ 
+  }
+
+  @media all and (min-width: 100px) and (max-width: 450px) {
+    #nav2 {
+      display: none;
+    }
+    #middle_two {
+      grid-template-columns: (1,1fr);
+    }
+  }
+  .login {
+    color:#7c7c7d;
+  }
+  .bag {
+    color:#7c7c7d;
+  }
    
