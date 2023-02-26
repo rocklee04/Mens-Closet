@@ -8,16 +8,18 @@ function submit() {
     for(let i = 0; i< data.length; i++) {
         if(data[i].email == email.value) {
             alert("Your order is succesfully placed");
+            console.log("true");
+        localStorage.clear();
+        setTimeout(() => {
+        location.replace("./home.html");
+        }, 1000);
+        return
         }
         else {
             alert("Wrong Credentials");
         }
         
-        console.log("true");
-        localStorage.clear();
-        setTimeout(() => {
-        location.replace("./index.html");
-        }, 1000);
+        
     }
 }    
 console.log("true");
