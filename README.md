@@ -1,7 +1,7 @@
 
 <h1>Charlie Tyrwhitt Clone</h1>
 
-<h3>Hello Everyone</h3>
+<h3>Hello Everyone </h3>
 
 <p>In this Project, I made a clone of Charlie Tyrwhitt British website where you can find and purchase all kind of men's clothing specially fine shirts.I build this project with backend technologies.</p>
 
